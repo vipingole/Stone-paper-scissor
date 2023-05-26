@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Rock-Paper-Scissors</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="script" href="javascript.js">
+  </head>
+  <body>
+    <div class="header" id="title">
+      <h1>Rock-Paper-Scissors Game</h1>
+    </div>
+    <div class="Maingame">
+      <div class="computer" id="computerturn">
+        <img src="/images/rock.jpg" alt="computer-image">
+      </div>
+      <div class="user" id="userturn">
+        <img src="images/rockflip.jpg" alt="user-image">
+      </div>
+    
+    </div>
+  <center>
+  <form>
+    <div class="userinput">
+      <div>
+        <input type="radio" id="rock" name="game" value="rock">
+        <label for="rock">Rock</label>
+      </div>
+      <div>
+        <input type="radio" id="paper" name="game" value="paper">
+        <label for="css">Paper</label>
+      </div>
+      <div>
+        <input type="radio" id="scissor" name="game" value="scissor">
+        <label for="javascript">Scissor</label>
+      </div>
+
+      <button onclick="submitForm()" id="submit">Submit</button>  
+  </center>
+    </div>
+  </form>
+    <div class="button">
+      <button>reset</button>
+    </div>
+
+  </body>
+</html>
